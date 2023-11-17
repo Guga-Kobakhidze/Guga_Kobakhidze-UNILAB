@@ -28,6 +28,7 @@ overlay.addEventListener("click", () => {
 
 const timerSection = document.querySelectorAll(".timer");
 const deleteSale = document.querySelectorAll(".delete_sale");
+const lastPrice = document.querySelector(".last_price");
 
 let timer = 20;
 
@@ -45,6 +46,7 @@ function countDown() {
     deleteSale.forEach((sale) => {
       sale.style.display = "none";
     });
+    lastPrice.style.display = "none";
   }
 }
 

@@ -258,3 +258,9 @@ ul {
   background-color: rgba(0, 0, 0, 0.325);
   z-index: 1;
 }
+
+.last_price {
+  color: rgba(165, 42, 42, 0.514);
+  font-size: 14px;
+  transform: translateX(25px);
+}
